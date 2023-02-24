@@ -1,0 +1,102 @@
+:root {
+    --cor1: #F1F2EB;
+    --cor2: #D8DAD3;
+    --cor3: #A4C2A5;
+    --cor4: rgb(86, 98, 70);
+    --cor5: #4A4A48;
+
+    --fonte: 'Montserrat', sans-serif;
+    --font-family: 'Work Sans', sans-serif;
+}
+
+/* cor 1 #F1F2EB*/
+
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #d5d6cf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+}
+
+section#ladodado, section#ladoimg {
+    width: 50%;
+}
+
+
+main {
+    display: flex;
+    background-color: var(--cor3);
+    width: 500px;
+    border-radius: 25px;
+}
+
+
+section#ladodados h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+section#ladodados p {
+    padding: 0px 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+section#ladodados form {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    padding: 0px 15px 15px 15px;
+}
+input#email, input#pin  {
+    width: 200px;
+    padding: 5px;
+    border: 0px;
+    background-color: #c4dea1;
+    
+}
+
+span {
+    width: 30px;
+}
+
+section#ladoimg > img {
+    height: 100%;
+    width: 285px;
+    border-radius: 0px 25px 25px 0px;
+}
+
+article{
+    padding: 0px 15px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#bt {
+    padding: 5px;
+    width: 230px;
+    background-color: #ffffff;
+    border: 0px;
+    border-radius: 15px; 
+    transition: .2s;
+    cursor: pointer;
+}
+#bt:hover {
+    background-color: var(--cor2);
+    background-color: #c4dea1;
+}
+
+article > p >a {
+    font-size: 14px; 
+}
